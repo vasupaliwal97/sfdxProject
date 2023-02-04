@@ -1,17 +1,17 @@
 public  class Project001 {
 
 Public String firstName;
-Public String surName;
+Public String middleName;
 
 
 
 public Project001(String firstName,String lastName) {
      this.firstName=firstName ; 
-     this.surName=lastName ;
+     this.middleName=lastName ;
 }
 
 public void display()
 {
-    System.debug(this.firstName + '  '+ this.surName);
+    System.debug(this.firstName + '  '+ this.middleName);
 }
 }
